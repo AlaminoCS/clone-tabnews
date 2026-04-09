@@ -34,6 +34,46 @@ Bem-vindo, **Dev Padawan**! Sua missão é construir o lendário **Clone TabNews
 
 ---
 
+## 🧱 ARQUITETURA DO JOGO
+
+Este projeto segue uma arquitetura inspirada em MVC, adaptada para o mundo Next.js:
+
+- `models/` → Modelo de dados e regras de negócio
+- `pages/` → Rotas e a interface de entrada do aplicativo
+- `infra/` → Infraestrutura, banco de dados, migrações e provisionamento
+- `tests/` → Testes de unidade e integração
+
+### Estrutura proposta de pastas
+
+```text
+clone-tabnews/
+├── infra/
+│   ├── database.js
+│   ├── migrations/
+│   └── provisioning/
+│       ├── production/
+│       └── staging/
+├── models/
+│   ├── content.js
+│   ├── password.js
+│   └── user.js
+├── pages/
+│   └── index.js
+├── tests/
+├── package.json
+├── README.md
+└── .editorconfig
+```
+
+### Como cada peça funciona
+
+- `models/`: aqui vivem as entidades do sistema, como usuários, conteúdo e senhas. Elas são o coração da lógica de domínio.
+- `pages/`: no Next.js, essa pasta representa as rotas/controles que respondem aos acessos do usuário. O `index.js` é a primeira página do jogo.
+- `infra/`: configura o ambiente externo — conexão com banco, migrações e deploy para staging/production.
+- `tests/`: espaço reservado para garantir que tudo funcione como esperado antes de avançar para o próximo level.
+
+---
+
 ## 🎯 QUEST LOG
 
 ### ⚡ QUEST 1: THE SUMMONING RITUAL

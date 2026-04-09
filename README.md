@@ -143,6 +143,49 @@ Bem-vindo, **Dev Padawan**! Sua missão é construir o lendário **Clone TabNews
 
 ---
 
+### ⚡ QUEST 6.5: THE EDITOR CONFIG RUNE
+**Objetivo:** Inscreva a runa de configuração do editor!
+
+```
+    📜 ANCIENT RUNE 📜
+        ┌────────────┐
+        │ .editor    │
+        │ config     │
+        └────────────┘
+```
+
+**O que é:** Um arquivo mágico que padroniza a formatação de código entre todos os desenvolvedores do projeto, independentemente do editor usado!
+
+**Crie o arquivo `.editorconfig` na raiz do projeto:**
+
+```ini
+# 📜 .editorconfig
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+```
+
+**Decodifiquemos a magia:**
+
+| Runa | Significado | Poder |
+|------|------------|-------|
+| `root = true` | Raiz do grimório | Para a busca de configs em pastas pai |
+| `[*]` | Aplica a TODOS os arquivos | Padroniza todo o código ⚡ |
+| `indent_style = space` | Use espaços, não tabs | Evita a Maldição do Tab ❌ |
+| `indent_size = 2` | 2 espaços por indentação | Economiza poder e mantém legibilidade ✨ |
+
+**🎯 Por que isso importa:** 
+- ✅ Todos os devs formatam igualmente
+- ✅ Evita conflitos em Pull Requests (sem mudanças de espaçamento)
+- ✅ Ferramentas como Prettier e ESLint respeitam essas configs
+- ✅ Seu editor VS Code automaticamente segue essas regras!
+
+> 💡 **Dica Elder:** Instale a extensão **EditorConfig for VS Code** para suporte completo!
+
+---
+
 ### ⚡ QUEST 7: THE SANCTUARY OF PAGES
 **Objetivo:** Erga o santuário inicial!
 

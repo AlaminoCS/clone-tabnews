@@ -1,5 +1,6 @@
 # 🎮 CLONE TABNEWS: THE LEGEND OF THE FULL STACK
-## *A Pixel Art Adventure in Web Development*
+
+## _A Pixel Art Adventure in Web Development_
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
@@ -15,7 +16,7 @@
 
 ## 📜 THE LEGEND BEGINS
 
-> *"No reino do JavaScript, um herói deve erguer o TabNews do zero, forjando código com as chamas do Node.js e as runas do React..."*
+> _"No reino do JavaScript, um herói deve erguer o TabNews do zero, forjando código com as chamas do Node.js e as runas do React..."_
 
 Bem-vindo, **Dev Padawan**! Sua missão é construir o lendário **Clone TabNews**, um portal de notícias para programadores. Siga esta quest log passo a passo para subir de nível!
 
@@ -23,19 +24,20 @@ Bem-vindo, **Dev Padawan**! Sua missão é construir o lendário **Clone TabNews
 
 ## 🗡️ INVENTORY - ITENS NECESSÁRIOS
 
-| Item | Versão | Raridade |
-|------|--------|----------|
-| ⚔️ Node.js | LTS Hydrogen (v18) | ⭐⭐⭐⭐⭐ |
-| 🛡️ Next.js | 13.1.6 | ⭐⭐⭐⭐ |
-| 🔮 React | 18.2.0 | ⭐⭐⭐⭐ |
-| 📜 React-DOM | 18.2.0 | ⭐⭐⭐⭐ |
-| 🏆 NPM | Latest | ⭐⭐⭐ |
+| Item         | Versão             | Raridade   |
+| ------------ | ------------------ | ---------- |
+| ⚔️ Node.js   | LTS Hydrogen (v18) | ⭐⭐⭐⭐⭐ |
+| 🛡️ Next.js   | 13.1.6             | ⭐⭐⭐⭐   |
+| 🔮 React     | 18.2.0             | ⭐⭐⭐⭐   |
+| 📜 React-DOM | 18.2.0             | ⭐⭐⭐⭐   |
+| 🏆 NPM       | Latest             | ⭐⭐⭐     |
 
 ---
 
 ## 🎯 QUEST LOG
 
 ### ⚡ QUEST 1: THE SUMMONING RITUAL
+
 **Objetivo:** Invoque o projeto do vazio!
 
 ```
@@ -48,15 +50,17 @@ Bem-vindo, **Dev Padawan**! Sua missão é construir o lendário **Clone TabNews
 ```
 
 **Instruções:**
+
 - Execute o comando mágico `npm init`
 - Pressione **ENTER** para aceitar os destinos padrão
 - Quando chegar em **license**, digite `MIT` para receber a bênção do Código Aberto!
 
-> 🎵 *Som de baú abrindo* - Você recebeu: `package.json`!
+> 🎵 _Som de baú abrindo_ - Você recebeu: `package.json`!
 
 ---
 
 ### ⚡ QUEST 2: FORGING THE NEXT SWORD
+
 **Objetivo:** Forje a arma principal do framework!
 
 ```
@@ -73,6 +77,7 @@ Bem-vindo, **Dev Padawan**! Sua missão é construir o lendário **Clone TabNews
 ---
 
 ### ⚡ QUEST 3: AWAKENING THE REACT SPIRIT
+
 **Objetivo:** Desperte o espírito da interface!
 
 ```
@@ -87,6 +92,7 @@ Bem-vindo, **Dev Padawan**! Sua missão é construir o lendário **Clone TabNews
 ---
 
 ### ⚡ QUEST 4: THE NVM CRYSTAL
+
 **Objetivo:** Cristalize a versão do Node.js!
 
 ```
@@ -100,17 +106,18 @@ Bem-vindo, **Dev Padawan**! Sua missão é construir o lendário **Clone TabNews
 
 **Passos do Ritual:**
 
-| Comando | Efeito Mágico |
-|---------|---------------|
-| `nvm install lts/hydrogen` | Invoca o cristal Hydrogen |
+| Comando                          | Efeito Mágico                |
+| -------------------------------- | ---------------------------- |
+| `nvm install lts/hydrogen`       | Invoca o cristal Hydrogen    |
 | `nvm alias default lts/hydrogen` | Vincula o cristal ao seu ser |
-| `echo "lts/hydrogen" > .nvmrc` | Cria o grimório `.nvmrc` |
+| `echo "lts/hydrogen" > .nvmrc`   | Cria o grimório `.nvmrc`     |
 
 > ⚠️ **Cuidado, herói!** No comando 4.1, digite **"hydrogen"** com **Y**! "hidrogen" é uma maldição de digitação! 👻
 
 ---
 
 ### ⚡ QUEST 5: BINDING THE REACT-DOM SOUL
+
 **Objetivo:** Una o React ao DOM!
 
 ```
@@ -125,6 +132,7 @@ Bem-vindo, **Dev Padawan**! Sua missão é construir o lendário **Clone TabNews
 ---
 
 ### ⚡ QUEST 6: THE MANIFEST SCROLL
+
 **Objetivo:** Inscreva o comando de desenvolvimento!
 
 ```javascript
@@ -144,6 +152,7 @@ Bem-vindo, **Dev Padawan**! Sua missão é construir o lendário **Clone TabNews
 ---
 
 ### ⚡ QUEST 6.5: THE EDITOR CONFIG RUNE
+
 **Objetivo:** Inscreva a runa de configuração do editor!
 
 ```
@@ -169,14 +178,15 @@ indent_size = 2
 
 **Decodifiquemos a magia:**
 
-| Runa | Significado | Poder |
-|------|------------|-------|
-| `root = true` | Raiz do grimório | Para a busca de configs em pastas pai |
-| `[*]` | Aplica a TODOS os arquivos | Padroniza todo o código ⚡ |
-| `indent_style = space` | Use espaços, não tabs | Evita a Maldição do Tab ❌ |
-| `indent_size = 2` | 2 espaços por indentação | Economiza poder e mantém legibilidade ✨ |
+| Runa                   | Significado                | Poder                                    |
+| ---------------------- | -------------------------- | ---------------------------------------- |
+| `root = true`          | Raiz do grimório           | Para a busca de configs em pastas pai    |
+| `[*]`                  | Aplica a TODOS os arquivos | Padroniza todo o código ⚡               |
+| `indent_style = space` | Use espaços, não tabs      | Evita a Maldição do Tab ❌               |
+| `indent_size = 2`      | 2 espaços por indentação   | Economiza poder e mantém legibilidade ✨ |
 
-**🎯 Por que isso importa:** 
+**🎯 Por que isso importa:**
+
 - ✅ Todos os devs formatam igualmente
 - ✅ Evita conflitos em Pull Requests (sem mudanças de espaçamento)
 - ✅ Ferramentas como Prettier e ESLint respeitam essas configs
@@ -187,6 +197,7 @@ indent_size = 2
 ---
 
 ### ⚡ QUEST 7: THE SANCTUARY OF PAGES
+
 **Objetivo:** Erga o santuário inicial!
 
 ```
@@ -201,13 +212,15 @@ indent_size = 2
 // ⚔️ pages/index.js
 export default function Home() {
   return (
-    <div style={{
-      background: '#000080',
-      color: '#00FF00',
-      fontFamily: '"Press Start 2P", monospace',
-      padding: '20px',
-      textAlign: 'center'
-    }}>
+    <div
+      style={{
+        background: "#000080",
+        color: "#00FF00",
+        fontFamily: '"Press Start 2P", monospace',
+        padding: "20px",
+        textAlign: "center",
+      }}
+    >
       <h1>🎮 CLONE TABNEWS 🎮</h1>
       <p>Insert news to continue...</p>
       <p>SCORE: 000000</p>
@@ -219,6 +232,7 @@ export default function Home() {
 ---
 
 ### ⚡ QUEST 8: IGNITE THE SERVER
+
 **Objetivo:** Acenda a fornalha do desenvolvimento!
 
 ```
@@ -240,6 +254,7 @@ export default function Home() {
 ```
 
 **Se você encontrar o erro:**
+
 ```
 SyntaxError: Cannot use import statement outside a module
 ```
@@ -253,7 +268,7 @@ SyntaxError: Cannot use import statement outside a module
 // ✅ Deixe o padrão ES Modules reinar!
 ```
 
-> 🎵 *Som de inimigo derrotado* - XP Ganho: +50!
+> 🎵 _Som de inimigo derrotado_ - XP Ganho: +50!
 
 ---
 
@@ -278,13 +293,13 @@ SyntaxError: Cannot use import statement outside a module
 
 ## 🏆 ACHIEVEMENTS UNLOCKED
 
-| Conquista | Descrição |
-|-----------|-----------|
-| 🥇 **Hello World!** | Primeira página renderizada |
-| 🥈 **Node Master** | Versão fixada com NVM |
-| 🥉 **Module Walker** | Corrigiu erro de importação |
-| 🏅 **Open Sourcerer** | Licença MIT aplicada |
-| 🎖️ **Port Opener** | Tornou a porta pública |
+| Conquista             | Descrição                   |
+| --------------------- | --------------------------- |
+| 🥇 **Hello World!**   | Primeira página renderizada |
+| 🥈 **Node Master**    | Versão fixada com NVM       |
+| 🥉 **Module Walker**  | Corrigiu erro de importação |
+| 🏅 **Open Sourcerer** | Licença MIT aplicada        |
+| 🎖️ **Port Opener**    | Tornou a porta pública      |
 
 ---
 
@@ -321,6 +336,4 @@ npm run dev
 
 ---
 
-*Desenvolvido com 💚 e muitos pixels para o Curso.Dev*
-
-
+_Desenvolvido com 💚 e muitos pixels para o Curso.Dev_

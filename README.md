@@ -196,6 +196,93 @@ indent_size = 2
 
 ---
 
+### ⚡ QUEST 6.6: THE PRETTIER SPELL
+
+**Objetivo:** Configure a magia do Prettier e o formato ao salvar no VS Code!
+
+```
+    ✨ PRETTIER POWER ✨
+         .-"""""-.
+        /         \
+       |  SAVE ON  |
+       |   FORMAT  |
+        \         /
+         '-.....-'
+```
+
+**O que é:** Uma ferramenta automática que deixa o código bonito, consistente e pronta para o pull request.
+
+**Passos do Ritual:**
+
+1. **Adicione o Prettier ao projeto:**
+
+   ```bash
+   npm install --save-dev prettier
+   ```
+
+2. **Crie o arquivo de configuração do Prettier:**
+
+   ```json
+   // 📜 .prettierrc
+   {
+     "semi": true,
+     "trailingComma": "es5",
+     "singleQuote": true,
+     "printWidth": 80,
+     "tabWidth": 2,
+     "useTabs": false
+   }
+   ```
+
+3. **Configure o VS Code usando a interface de configurações:**
+   - Clique no ícone de engrenagem no canto inferior esquerdo do VS Code e selecione `Settings`.
+   - No campo de busca digite `default formatter`.
+   - Em `Editor: Default Formatter`, escolha `Prettier - Code formatter`.
+   - Busque por `format on save`.
+   - Ative `Editor: Format On Save`.
+   - Busque por `prettier require config`.
+   - Ative `Prettier: Require Config`.
+
+   **Alternativa rápida pelo atalho:**
+   - Abra as configurações com `Ctrl + ,` (Windows/Linux) ou `Cmd + ,` (macOS).
+   - Siga os mesmos passos de busca por `default formatter`, `format on save` e `prettier require config`.
+
+   **Isso garante:**
+   - VS Code usa Prettier como formatador padrão
+   - O código é formatado automaticamente ao salvar
+   - Prettier só roda se houver configuração no projeto
+
+4. **Adicione scripts úteis ao `package.json`:
+   **
+
+   ```json
+   // 📜 package.json
+   {
+     "scripts": {
+       "dev": "next dev",
+       "format": "prettier --write .",
+       "format:check": "prettier --check ."
+     }
+   }
+   ```
+
+**🎯 Por que isso importa:**
+
+- ✅ Código sempre formatado automaticamente
+- ✅ Evita debates sobre estilo em Pull Requests
+- ✅ Integra com VS Code e outras ferramentas
+- ✅ Funciona junto com `.editorconfig` para máxima harmonia!
+
+**Comando para formatar:**
+
+```
+npm run format
+```
+
+> 💡 **Dica Elder:** Instale a extensão **Prettier - Code formatter** no VS Code e mantenha o `editor.formatOnSave` ligado!
+
+---
+
 ### ⚡ QUEST 7: THE SANCTUARY OF PAGES
 
 **Objetivo:** Erga o santuário inicial!

@@ -323,6 +323,85 @@ npm run format
 
 ---
 
+### ⚡ QUEST 6.7: THE JEST TESTING GRIMOIRE
+
+**Objetivo:** Configure o framework de testes para garantir código seguro!
+
+```
+    🧪 JEST POTION 🧪
+         .-"""""-.
+        /         \
+       |   TEST    |
+       | COVERAGE  |
+        \         /
+         '-.....-'
+```
+
+**O que é:** Jest é um framework de testes poderoso que verifica se seu código funciona corretamente em todas as situações, protegendo contra bugs antes deles chegarem ao produção!
+
+**Passos do Ritual:**
+
+1. **O Jest já foi invocado:**
+
+   ```bash
+   npm install --save-dev jest@29.6.2
+   ```
+
+   Jest já está instalado em seu `package.json`!
+
+2. **O script de teste já está configurado:**
+
+   ```json
+   // 📜 package.json
+   {
+     "scripts": {
+       "dev": "next dev",
+       "lint:check": "prettier --check .",
+       "lint:fix": "prettier --write .",
+       "test": "jest",
+       "test:watch": "jest --watch" // ← ✨ Modo watch ativo!
+     }
+   }
+   ```
+
+3. **Crie testes na pasta `tests/`:**
+
+   Crie arquivos com o padrão `*.test.js` ou `*.spec.js`:
+
+   ```javascript
+   // 📜 tests/example.test.js
+   describe("Calculadora de Poder", () => {
+     test("deve somar dois números corretamente", () => {
+       const resultado = 2 + 2;
+       expect(resultado).toBe(4);
+     });
+   });
+   ```
+
+**🎯 Por que isso importa:**
+
+- ✅ Testes garantem confiabilidade do código
+- ✅ Evita regressões ao refatorar
+- ✅ Documenta o comportamento esperado
+- ✅ Aumenta a confiança ao enviar para produção!
+
+**Comandos para testar:**
+
+```bash
+# Rodar todos os testes uma vez
+npm test
+
+# Rodar testes em modo watch (reexecuta ao salvar)
+npm run test:watch
+
+# Rodar testes com cobertura (quanto do código está testado)
+npm test -- --coverage
+```
+
+> 💡 **Dica Elder:** Jest builtado para Next.js! Nenhuma configuração extra é necessária por enquanto. À medida que o projeto cresce, você pode criar um `jest.config.js` para customizações!
+
+---
+
 ### ⚡ QUEST 7: THE SANCTUARY OF PAGES
 
 **Objetivo:** Erga o santuário inicial!
